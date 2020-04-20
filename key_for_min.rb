@@ -3,10 +3,11 @@
 
 def key_for_min_value(name_hash)
   name_arr=[]
-  
   if(name_hash.empty?)
     return nil 
   end
+  name_arr.collect do |key|
+    
   name_hash.each do |key,value|
     if(value<smallestValue)
       smallestValue=value
