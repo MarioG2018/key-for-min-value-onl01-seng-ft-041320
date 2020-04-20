@@ -14,7 +14,8 @@ def key_for_min_value(name_hash)
     if(value<new_hash)
       value=new_hash
     end
-    
+    new_hash.each do |key,value|
+      
     end
 end
 
