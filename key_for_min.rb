@@ -15,7 +15,8 @@ def key_for_min_value(name_hash)
       smallest=value
     end
     end
-    
+    name_hash.each do |key,value|
+      
 end
 
 #def key_for_min_value(hash)
