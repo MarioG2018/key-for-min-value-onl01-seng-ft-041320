@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
   new_hash=name_arr[0]
   new_hash.each do |key,value|
     if(value<new_hash)
-      
+      new
       
     end
     smallestKey
