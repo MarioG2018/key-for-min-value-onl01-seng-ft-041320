@@ -13,6 +13,9 @@ def key_for_min_value(name_hash)
   value_arr.each do |value|
     if(value<smallest)
       smallest=value
+    end
+    end
+    
 end
 
 #def key_for_min_value(hash)
