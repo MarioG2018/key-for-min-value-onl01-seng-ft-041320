@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
     return nil 
   end
   name_arr.collect do |key|
+    name_arr
   end
   new_hash=name_arr[0]
   new_hash.each do |key,value|
