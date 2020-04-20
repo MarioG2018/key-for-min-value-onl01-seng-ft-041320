@@ -6,20 +6,6 @@ def key_for_min_value(name_hash)
   if(name_hash.empty?)
     return nil 
   end
-  name_arr.collect do |key|
-    name_arr
-  end
-  new_hash=name_arr[0]
-  new_hash.each do |key,value|
-    if(value<new_hash)
-      value=new_hash
-    end
-    end
-    new_hash.each do |key,value|
-      if(value==new_hash)
-        key
-      end
-      end
 end
 
 #def key_for_min_value(hash)
